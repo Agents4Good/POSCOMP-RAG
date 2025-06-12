@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: poscomp-rag
+    title: POSCOMP-RAG
+    description: RAG das questões das provas do POSCOMP
+    annotations:
+        backstage.io/techdocs-ref: dir:.
+        github.com/project-slug: Agents4Good/POSCOMP-RAG
+
+spec:
+    type: service
+    lifecycle: development
+    owner: Educacao

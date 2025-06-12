@@ -1,0 +1,7 @@
+site_name: 'POSCOMP-RAG'
+
+nav:
+  - Home: README.md
+
+plugins:
+  - techdocs-core
