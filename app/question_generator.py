@@ -1,7 +1,7 @@
 import pandas as pd
 from typing import List
 from langchain.schema import HumanMessage
-from poscomp_rag.core.llm import GerenciadorLLM
+from app.core.llm import GerenciadorLLM
 
 
 class GeradorQuestoes:

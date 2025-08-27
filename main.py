@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-from poscomp_rag.system import SistemaPOSCOMP
+from app.system import SistemaPOSCOMP
 
 def main():
     load_dotenv()

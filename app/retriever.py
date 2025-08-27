@@ -2,8 +2,8 @@
 import random
 from typing import List, Dict
 
-from poscomp_rag.core.embeddings import GeradorEmbeddings
-from poscomp_rag.core.utils import normalizar_texto
+from app.core.embeddings import GeradorEmbeddings
+from app.core.utils import normalizar_texto
 from chromadb.api.models.Collection import Collection
 
 

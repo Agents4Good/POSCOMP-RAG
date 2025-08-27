@@ -1,12 +1,12 @@
 import os
 from typing import List, Tuple, Optional
 
-from poscomp_rag.core.embeddings import GeradorEmbeddings
-from poscomp_rag.core.llm import GerenciadorLLM
-from poscomp_rag.core.data_loader import CarregadorBanco
-from poscomp_rag.core.utils import normalizar_texto
-from poscomp_rag.retriever import BuscadorQuestoes
-from poscomp_rag.question_generator import GeradorQuestoes
+from app.core.embeddings import GeradorEmbeddings
+from app.core.llm import GerenciadorLLM
+from app.core.data_loader import CarregadorBanco
+from app.core.utils import normalizar_texto
+from app.retriever import BuscadorQuestoes
+from app.question_generator import GeradorQuestoes
 
 
 class SistemaPOSCOMP:
@@ -24,9 +24,9 @@ class SistemaPOSCOMP:
         }
 
         self.arquivos_questoes = {
-            "fundamentos_computacao": "poscomp_rag/data/questoes_fundamentos_computacao.json",
-            "tecnologia_computacao": "poscomp_rag/data/questoes_tecnologia_computacao.json",
-            "matematica": "poscomp_rag/data/questoes_matematica.json"
+            "fundamentos_computacao": "app/data/questoes_fundamentos_computacao.json",
+            "tecnologia_computacao": "app/data/questoes_tecnologia_computacao.json",
+            "matematica": "app/data/questoes_matematica.json"
         }
 
         self.carregador = CarregadorBanco("poscomp_chroma_db", self.modelo_embedding.modelo, self.area_para_colecao)
