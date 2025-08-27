@@ -1,4 +1,4 @@
-id,edicao,numero,enunciado,alternativas,area_conhecimento,area,subarea,gabarito
+id,year,number,stem,options,knowledge_area,area,subarea,key
 2002-01,2002,1,Pode-se afirmar que o gráfico da função $y = 2 + \frac{1}{x-1}$ é o gráfico da função $y = \frac{1}{x}$,"['a) transladado uma unidade para a direita e duas unidades para cima;', 'b) transladado uma unidade para a direita e duas unidades para baixo;', 'c) transladado uma unidade para a esquerda e duas unidades para cima;', 'd) transladado uma unidade para a esquerda e duas unidades para baixo;', 'e) nenhuma das anteriores.']",Matemática,Geometria Analítica,Reta no plano e no espaço,A
 2002-02,2002,2,A derivada da função $f(x) = x^x$ é igual a,"['a) $xx^{x-1}$', 'b) $x^x$', 'c) $x^x \\ln(x)$', 'd) $x^x(\\ln(x) + 1)$', 'e) $x^x(\\ln(x) + x)$']",Matemática,Cálculo Diferencial e Integral,Funções Reais de uma Variável: Continuidade e Diferenciabilidade,D
 2002-03,2002,3,"Seja $n$ um número inteiro positivo. Considere a função $f$ definida recursivamente por
